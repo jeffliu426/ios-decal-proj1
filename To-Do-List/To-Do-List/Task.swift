@@ -16,7 +16,7 @@ struct Task {
     var timeCompleted: NSTimeInterval?
     var isDeletedBefore24Hours: Bool?
     var isDeletedAfter24Hours: Bool?
-    static var timeLimit = 12.0
+    static var timeLimit = 86400
     
     init(name: String?, isCompleted: Bool?, timeCompleted: NSTimeInterval?, isDeletedBefore24Hours: Bool?, isDeletedAfter24Hours: Bool?) {
         self.name = name
